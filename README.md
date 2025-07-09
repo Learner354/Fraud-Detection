@@ -1,12 +1,11 @@
 
-```markdown
-# 💳 Fraud Detection System (Random Forest + SMOTE)
+##  Fraud Detection System (Random Forest + SMOTE)
 
 A machine learning system to detect fraudulent financial transactions using classification techniques, imbalance handling, and SHAP explainability — deployed via Streamlit for interactive fraud flagging.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates:
 
@@ -55,19 +54,19 @@ This project demonstrates:
 
 ## 🚀 Running the App
 
-### ✅ 1. Install requirements
+###  1. Install requirements
 
 ```bash
 pip install -r requirements.txt
 ````
 
-### ✅ 2. Launch Streamlit
+###  2. Launch Streamlit
 
 ```bash
 streamlit run app.py
 ```
 
-### ✅ 3. Upload a CSV
+###  3. Upload a CSV
 
 Upload a CSV file with **30 input features** (same columns as training data, no `Class` column). The app:
 
@@ -78,7 +77,7 @@ Upload a CSV file with **30 input features** (same columns as training data, no 
 
 ---
 
-## 🧪 Sample Test Data
+##  Sample Test Data
 
 A sample input file is provided as `test_input.csv`.
 You can also extract `X_test` from your notebook and save:
@@ -89,7 +88,7 @@ X_test.to_csv("test_input.csv", index=False)
 
 ---
 
-## 🧠 Model Explainability
+##  Model Explainability
 
 * Uses `shap.TreeExplainer` for fast and accurate SHAP value generation
 * Visualizations include:
